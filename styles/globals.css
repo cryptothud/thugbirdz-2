@@ -32,12 +32,17 @@ a {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     COLOR: #000;
 }
+body {
+  background: url('https://uploads-ssl.webflow.com/632d82a31f9d74f1c09f0905/6336dd6c3c19bd25cc1394eb_1UBqph-L-CM7OtqKPuhk2Ti5Lf_8tQK-Nk8e2M0DF2E-p-1600.png');
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
-  background: #fec600;
-  background-size: cover;
-  background-position: bottom;
+  background: #00000090;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,4 +58,5 @@ svg {
 h1 {
   font-size: 20px;
   font-weight: 400;
+  color: #fff;
 }

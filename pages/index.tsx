@@ -27,21 +27,7 @@ export default function Home() {
 
 
       <div className="App">
-        <svg
-          version="1.2"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1500 1101"
-          width="1500"
-          height="1101"
-        >
-          <g id="Layer 1">
-            <path
-              id="Path 1"
-              className="s0"
-              d="m48 428.6l1398.4 5 4.9 267.9h-428.6v-126.6h-126.6v126.6h-428.6v-126.6l-413.9-4.9-2.8-70.7z"
-            />
-          </g>
-        </svg>
+        <img src="/biglogo.png"  style={{width: '500px', maxWidth: '70vw'}} />
         <h1>website dropping soon.</h1>
       </div>
     </div>
